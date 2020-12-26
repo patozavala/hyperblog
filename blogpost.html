@@ -7,30 +7,40 @@
     <title> Hyperblog </title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul class="main-nav">
-                <li class="main-nav__item"><a href="">Home</a></li>
-                <li class="main-nav__item"><a href="">Cursos</a></li>
-                <li class="main-nav__item"><a href="">Instructores</a></li>
-                <li class="main-nav__item"><a href="">Blog</a></li>
-            </ul>
+    <header class="site-header">
+        <div class="site-identity">
+          <a href="#"><img src="./figures/logo_udechile.png" width="50px" /></a>
+          <h1><a href="#">Club Universidad de Chile</a></h1>
+        </div>  
+        <nav class="site-navigation">
+          <ul class="nav">
+            <li><a href="#">Hinchada</a></li> 
+            <li><a href="#">Noticias</a></li> 
+            <li><a href="#">Contacto</a></li> 
+          </ul>
         </nav>
-    </header>
-    <main>
-        <section>
-            <h1> Soy un título</h1> 
-            <div><p>Párrafo</p></div> 
+      </header>
+      <main>
+        <aside class="news">
+          <figure class="news__images">
+            <img src="./figures/logo_udechile.png" alt="Route 1" width="100">
+            <img src="./figures/logo_udechile.png" alt="Route 2" width="100">
+            <img src="./figures/logo_udechile.png" alt="Route 3" width="100">
+          </figure>
+        </aside>
+        <section class="content">
+          <p>Sitio de pruebas del curso de HTML y CSS de Platzi
+          </p>
+          <figure class="content__images">
+          <img src="./figures/tricampeonato.png" alt="Route 1" width="32%">
+          <img src="./figures/2016.png" alt="Route 2" width="32%">
+          <img src="./figures/ballet_azul.jpg" alt="Route 3" width="32%">
+          </figure>
         </section>
-        <section>
-            <ul>
-                <li></li>
-            </ul>
-        </section>
-    </main>
-    <main>
-        <h1>Titulo 2</h1>
-        <p>párrafo 2</p>
-    </main>
+      </main>
+      <footer class="site-footer">
+        <img src="./figures/logo_udechile.png" width="50px" />
+        <p>Hecho por Pato Zavala, para Platzi</p>
+      </footer>
 </body>
 </html>
